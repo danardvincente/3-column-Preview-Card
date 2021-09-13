@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn {
+  border: 0.1rem solid #f2f2f2;
+  border-radius: 4rem;
+  background: transparent;
+  color: #f2f2f2;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  width: 100vw;
+  height: 100vh;
+}
+.container img {
+  width: 3.1rem;
+  height: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.container .sedan {
+  width: 14rem;
+  height: 21rem;
+  padding: 1.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background: #e38826;
+}
+.container .suvs {
+  width: 14rem;
+  height: 21rem;
+  padding: 1.5rem;
+  background: #006970;
+}
+.container .luxury {
+  width: 14rem;
+  height: 21rem;
+  padding: 1.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background: #004241;
+}
+
+/*# sourceMappingURL=main.css.map */
